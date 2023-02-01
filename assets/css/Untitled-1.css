@@ -1,0 +1,118 @@
+@media screen and (max-width: 585px) {
+    .btn-hamburger-desktop, .btn-close-desktop{
+        display: inherit;
+        cursor: pointer;
+    }
+
+    .nav-list-desktop{
+        display: none;
+    }  
+
+    /*******************************************
+                MENU HAMBURGER  
+    ********************************************/
+    nav ul{
+        position: fixed;
+        width: 30%;
+        top: -20px;
+        background: #232323;
+        height: 100%;
+        text-align: left;
+        right: 0;
+        padding: 2em;
+        z-index: 7;
+    }
+
+    nav ul li{
+        float: none;
+        margin: 0em 0em 0em -2em;
+    }
+
+    nav ul li a{
+       display: block;
+       width: 100%;
+       padding: 1em 2em;
+       background-color:rgb(61, 59, 59);
+       border-left: 5px solid transparent;
+       border-bottom: none;
+       color: #fff;
+    }
+
+    nav ul li a:hover{
+        background-color: rgb(50, 125, 238);
+        border-bottom-color: none;
+        border-left-color: rgb(0, 245, 73);
+        color: #fff;
+        border-bottom-color:none;
+    }
+
+    .btn-close-mobile{
+        margin-bottom: 1em;
+        margin-top: -1.3em;
+        text-align: right;
+        padding: 0 10em;
+        cursor: pointer;
+    }
+    /*******************************************
+            PAGE D'ACCEUIL 
+    ********************************************/
+
+    .text1{
+        font-size: 23px;
+        top: 50px;
+        text-align: center;
+        margin-left: 0em;
+        letter-spacing: 0.1em;
+    }
+
+    .text2{
+        font-size: 65px;
+        text-align: center;
+        margin-left: 0em;
+    }
+
+    div .lead-section1{
+        margin: 0em auto 0em 0em;
+        text-align: center;
+    }
+    /*****************NOS BOX*/
+    .box1{
+        width: 22em;
+        margin: 2em auto auto auto;
+    }
+
+    .box2, .box3{
+        margin-top: 4em;
+    }
+    .box4, .box5{
+        margin-top: 1em;
+    }
+
+    /* .box5{
+        margin-top: -2em;
+        margin-left: 0em;
+    } */
+    .box6, .box7, .box8{
+        margin-top: -2em;
+    }
+    /**********************FIN DE NOTRE PARTIE BOX*/
+
+    /* AFFICHAGE DES ARTICLES SUR LES PROBLEMES */
+    .div-container-problem{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .div-container-problem img{
+        width: 25em;
+        height: 25em;
+        margin: 0em auto 1em auto;
+    }
+
+    .content p{
+        font-size: 1em;
+        margin: 0em 1em 0em 1em;
+        line-height: 1.5em;
+    }
+
+}
